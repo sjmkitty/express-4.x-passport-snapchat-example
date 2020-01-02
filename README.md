@@ -1,6 +1,20 @@
 This example demonstrates how to use [Express](http://expressjs.com/) 4.x and
 [Passport](http://passportjs.org/) to authenticate users using Snapchat.  Use
 this example as a starting point for your own web applications.
+## Configure SnapKit App
+
+Login to the Snapchat developer portal using your Snapchat account.
+https://kit.snapchat.com/portal/apps
+
+Create a test app.
+* Kits: choose Login Kit
+* Redirect URIs: http://localhost:3000/login/snapchat/callback
+* Development Environment: Web
+* Save your client ID
+* Create and save a client secret
+
+Ensure that node is installed on your computer
+https://nodejs.org/en/download/
 
 ## Instructions
 
@@ -11,6 +25,7 @@ dependencies.
 $ git clone https://github.com/Snapchat/express-4.x-passport-snapchat-example.git
 $ cd express-4.x-passport-snapchat-example
 $ npm install
+$ npm install express --save
 ```
 
 The example uses environment variables to configure the consumer key and
