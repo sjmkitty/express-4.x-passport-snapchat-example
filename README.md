@@ -38,6 +38,9 @@ variables set to the appropriate credentials.
 Edit the line below (easiest not on the command line, copy and paste when done)
 * __snapchat_CLIENT_ID__ = your client ID (in the saved file)
 * __snapchat_CLIENT_SECRET__ = your client secret (in saved file)
+
+Be sure to keep all of the changes in one line, as this is what starts the project. 
+See link: https://serverjs.io/tutorials/getting-started/
 ```bash
 $ CLIENT_ID=__snapchat_CLIENT_ID__ CLIENT_SECRET=__snapchat_CLIENT_SECRET__ SESSION_SECRET=whatever node server.js
 ```
