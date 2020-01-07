@@ -36,13 +36,17 @@ consumer secret needed to access snapchat's API.  Start the server with those
 variables set to the appropriate credentials.
 
 Edit the line below (easiest not on the command line, copy and paste when done)
-* __snapchat_CLIENT_ID__ = your client ID (in the saved file)
-* __snapchat_CLIENT_SECRET__ = your client secret (in saved file)
+* CLIENT_ID = your client ID (in the saved file)
+* CLIENT_SECRET = your client secret (in saved file)
 
-Be sure to keep all of the changes in one line, as this is what starts the project. 
-See link: https://serverjs.io/tutorials/getting-started/
+Be sure to keep all of the changes in one line, as this is what launches the project. 
+See link: https://nodejs.org/en/docs/guides/getting-started-guide/
+* node starts the NODE app
+* server.js is the file that we want to launch
+So, calling the command below launches our project with the specificed variables.
+
 ```bash
-$ CLIENT_ID=__snapchat_CLIENT_ID__ CLIENT_SECRET=__snapchat_CLIENT_SECRET__ SESSION_SECRET=whatever node server.js
+$ CLIENT_ID=CLIENT_ID CLIENT_SECRET=CLIENT_SECRET SESSION_SECRET=whatever node server.js
 ```
 
 Open a web browser and navigate to [http://localhost:3000/](http://localhost:3000/)
