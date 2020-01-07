@@ -84,6 +84,11 @@ app.get('/',
     res.render('home', { user: req.user });
   });
 
+  app.get('/customtest',
+    function(req, res) {
+      res.render('customtest');
+    });
+
 app.get('/login',
   function(req, res){
     res.render('login');
@@ -103,6 +108,10 @@ app.get('/profile',
   function(req, res){
     res.render('profile', { user: req.user });
   });
+
+// app.get('/',function(req,res) {
+//     res.sendFile('index.html');
+//   });
 
 app.listen(3000, () => {
   console.log('App listening on port 3000...');
