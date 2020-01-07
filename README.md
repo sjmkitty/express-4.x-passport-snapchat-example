@@ -43,6 +43,7 @@ Be sure to keep all of the changes in one line, as this is what launches the pro
 See link: https://nodejs.org/en/docs/guides/getting-started-guide/
 * node starts the NODE app
 * server.js is the file that we want to launch
+
 So, calling the command below launches our project with the specificed variables.
 
 ```bash
